@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/netflix-mockup/static/css/main.d1b05096.chunk.css",
+    "main.js": "/netflix-mockup/static/js/main.14b5356b.chunk.js",
+    "main.js.map": "/netflix-mockup/static/js/main.14b5356b.chunk.js.map",
+    "runtime-main.js": "/netflix-mockup/static/js/runtime-main.6fbee393.js",
+    "runtime-main.js.map": "/netflix-mockup/static/js/runtime-main.6fbee393.js.map",
+    "static/js/2.c66877d9.chunk.js": "/netflix-mockup/static/js/2.c66877d9.chunk.js",
+    "static/js/2.c66877d9.chunk.js.map": "/netflix-mockup/static/js/2.c66877d9.chunk.js.map",
+    "index.html": "/netflix-mockup/index.html",
+    "precache-manifest.480c7655047eb6947a4550d9a5642605.js": "/netflix-mockup/precache-manifest.480c7655047eb6947a4550d9a5642605.js",
+    "service-worker.js": "/netflix-mockup/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/netflix-mockup/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.c66877d9.chunk.js.LICENSE.txt": "/netflix-mockup/static/js/2.c66877d9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/netflix-mockup/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fbee393.js",
+    "static/js/2.c66877d9.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.14b5356b.chunk.js"
+  ]
+}
