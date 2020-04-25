@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+html {
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mainContainer {
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container-header {
+  width: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#main-header-background {
+  height: 72vh;
+  display: block;
+  position: relative;
+  background: rgb(12, 9, 9);
+}
+
+
+#main-header-background::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/087be50f-41d9-44bb-842b-8ddb05e1d4da/US-en-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#main-container-padding {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  padding: 2vh 6vh 0 6vh;
+}
+
+#netflixLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 70px;
+  margin-top: 20px; 
+  height: 5vh;
+  z-index: 1;
+}
+
+.nfLogo {
+  fill: #E50914;
+  line-height: normal;
+}
+
+#svg-icon {
+  font-size: 16px;
+}
+
+.nfButtonStyle {
+  border: rgba(49, 49, 49, 0.404) 1px solid;
+  border-radius: 4px;
+  background: #E50914;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#signin-button {
+  padding: 5px 20px 5px 17px;
+  font-size: 16px;
+  font-weight: 400;
+  /* z-index: 1; */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#signin-button:hover {
+  cursor: pointer;
+}
+
+.main-container-body {
+  width: auto;
+  margin: 0 24vh 0 24vh;
+  padding: 17vh 0 22vh 0;
+  
+}
+
+
+.header-title-style {
+  color: white;
+  font-size: 3.824rem;
+  margin: 0;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header-sub-style {
+  color: white;
+  font-size: 26px;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.header-sub-small-style {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.group-input-container {
+  width: 30%;
+}
+
+.custom-input-group {
+  /* 3 */
+  padding: 0 17rem 0 17rem;
+  height: 7vh;
+}
+
+#email-input {
+  padding: 1rem 0 1rem 1vh;
+}
+
+#email-input::placeholder {
+  color: #8E8E8E;
+}
+
+#try-it-button {
+  background: #E50914;
+  height: 100%;
+  color: white;
+  width: 100%;
+  border:none;
+  border-left: none;
+  font-size: 25px;
+}
+
+#custom-chevron-arrow {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+
+/* BODY */
+
+.main-body-container {
+  background: black;
+  height: 49vh;
+  border-top: 10px #222222 solid;
+  padding: 0 2vh 0 2vh;
+}
+
+.custom-body-row {
+  height: 100%;
+}
+
+.main-sub-body-left-container {
+  height: 100%;
+  padding: 1vh 0 0 40vh;
+}
+
+.main-sub-body-right-container {
+  height: 100%;
+  padding: 1vh 40vh 0 0;
+}
+
+.body-title-style {
+  color: white;
+  font-size: 3.324rem;
+  margin: 0;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.body-sub-style {
+  color: white;
+  font-size: 26px;
+  margin: 1rem 1rem 2rem 0;
+}
+
+.tv-stand {
+  position: relative;
+  z-index: 2;
+}
+
+.tv-animation-container {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.tv-animation {
+  height: 100%;
+  width: 100%;
 }
